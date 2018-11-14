@@ -6,11 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Template Generator</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" href="https://www.tucanton.com/favicon.ico">
+  <style>
+    .noMostrar{
+      display:none;
+    }
+  </style>
 </head>
 <body>
   <nav>
-   <div class="nav-wrapper amber">
-     <a href="https://www.tucanton.com/" class="brand-logo center"><strong>Tu Cantón</strong></a>
+   <div class="nav-wrapper blue">
+     <a href="https://www.tucanton.com/" class="brand-logo center"><strong>Tu Cantón - V2</strong></a>
+
    </div>
  </nav>
 
@@ -66,14 +75,13 @@
        </form>
  </div>
  <div id="buttons">
-   <button class="btn waves-effect waves-light amber" type="submit" name="action" onclick="generar()">Generar
+   <button class="btn waves-effect waves-light blue" type="submit" name="action" onclick="generar()" id="generar">Generar
      <i class="material-icons right">send</i>
    </button>
+   <a href="https://tucantondevs.github.io/GeneratorTemplatesOne/"><button class="btn blue">V1</button></a>
  </div>
  <div id="template"></div>
 </div>
-
-
 
  <!--JavaScript at end of body for optimized loading-->
  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>

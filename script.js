@@ -509,7 +509,7 @@ var template = `<!doctype html>
                             <td class="mcnImageContent" valign="top" style="padding-right: 0px; padding-left: 0px; padding-top: 0; padding-bottom: 0; text-align:center;">
 
 
-                                        <img src="http://webservicesapp.jc9nhvmspb.us-east-1.elasticbeanstalk.com/api/pixels/localImages/download/tucanton_logo_template.png/{{id}}/{{campaignId}}/{{segmentId}}" width="200" style="max-width:200px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" alt="Tu Cantón">
+                                        <img src="http://webservicesapp.jc9nhvmspb.us-east-1.elasticbeanstalk.com/api/pixels/localImages/download/tucanton_logo_template.png/{{id}}/{{campaignId}}/{{segmentId}}/{{experimentId}}" width="200" style="max-width:200px; padding-bottom: 0; display: inline !important; vertical-align: bottom;" class="mcnImage" alt="Tu Cantón">
 
 
                             </td>
@@ -566,7 +566,7 @@ Si quieres que chequemos tu crédito, es necesario que <strong>actualices tus da
                     <tbody>
                         <tr>
                             <td align="center" valign="middle" class="mcnButtonContent" style="font-family: Arial; font-size: 14px; padding: 15px;">
-                                <a class="mcnButton " title="ACTUALIZA TUS DATOS" href="https://www.tucanton.com/actualizardatos/interesado/{{id}}/{{campaignId}}/{{segmentId}}" target="_blank" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;">ACTUALIZA TUS DATOS</a>
+                                <a class="mcnButton " title="ACTUALIZA TUS DATOS" href="https://www.tucanton.com/actualizardatos/interesado/{{id}}/{{campaignId}}/{{segmentId}}/{{experimentId}}" target="_blank" style="font-weight: bold;letter-spacing: normal;line-height: 100%;text-align: center;text-decoration: none;color: #FFFFFF;">ACTUALIZA TUS DATOS</a>
                             </td>
                         </tr>
                     </tbody>
@@ -757,7 +757,7 @@ El Equipo Tu Cantón
                   <td align="top" class="mcnTextContent" style="padding: 0px 18px 9px; font-family: Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-style: normal; font-weight: normal; text-align: center; font-size:18px;">
                     <p style="text-align:center; font-size:14px;">Todos los derechos reservados Tu Cantón 2018</p>
                     <br>
-                    <p style="text-align:center; color: blue;"><a href="https://tucanton.com/mailing/unsubscribe/{{id}}/{{campaignId}}/{{segmentId}}" style="text-color:red;">No deseo recibir correos.</a></p>
+                    <p style="text-align:center; color: blue;"><a href="https://tucanton.com/mailing/unsubscribe/{{id}}/{{campaignId}}/{{segmentId}}/{{experimentId}}" style="text-color:red;">No deseo recibir correos.</a></p>
                   </td>
                   </tr>
                 </tbody>
